@@ -24,9 +24,9 @@ class TestSong:
 
     def test_has_genres(self):
         '''keeps track of all Song genres.'''
-        assert("Rap" in Song.genres)
-        assert("Pop" in Song.genres)
-        assert("Rock" in Song.genres)
+        assert("Rap" in Song.genre)
+        assert("Pop" in Song.genre)
+        assert("Rock" in Song.genre)
 
     def test_has_artists(self):
         '''keeps track of all Song artists.'''
